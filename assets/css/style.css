@@ -1,0 +1,155 @@
+@import url(https://fonts.bunny.net/css?family=georama:200,200i,400,400i,700,700i);
+
+:root {
+    --color-main-dark: rosybrown;
+    --color-main-light: aqua;
+    --color-text-grey: #777;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+#cv-wrapper {
+    background-color: white;
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+header,
+section {
+    margin-bottom: 1.2rem;
+}
+
+/* side column */
+
+aside {
+    width: 28%;
+    background-color: var(--color-main-dark);
+    padding: 1.5rem;
+}
+
+section#pfp {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url('../img/pfp.png');
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+#info ul {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    margin-left: -.5rem;
+    margin-bottom: .25rem;
+}
+
+#info li img {
+    width: 1rem;
+    margin-right: .5rem;
+}
+
+/* main column */
+
+main {
+    width: 72%;
+    padding: 1.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: end;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--color-text-grey);
+    margin-right: -1.5rem;
+    padding: 1.5rem;
+    width: 85%;
+}
+
+h1 #firstname {
+    color: var(--color-main-dark);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: .5rem 0;
+    color: var(--color-text-grey);
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    color: var(--color-text-grey);
+    width: 20%;
+    white-space: nowrap;
+    padding-bottom: .75rem;
+    border-bottom: 5px solid var(--color-main-dark);
+    margin-bottom: .75rem;
+}
+
+aside h3 {
+    border-color: var(--color-text-grey);
+    color: white;
+}
+
+b {
+    font-weight: 700;
+}
+
+.cv-item {
+    margin-bottom: .75rem;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.date {
+    color: var(--color-main-dark);
+    float: right;
+    font-weight: 700;
+}
+
+.org {
+    color: var(--color-text-grey);
+    font-style: italic;
+}
+
+.cv-item p:first-of-type {
+    margin-top: .25rem;
+}
+
+.cv-item li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.cv-item li span{
+    margin-left: -.6rem;
+}
