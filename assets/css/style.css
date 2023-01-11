@@ -1,9 +1,10 @@
 @import url(https://fonts.bunny.net/css?family=georama:200,200i,400,400i,700,700i);
 
 :root {
-    --color-main-dark: rosybrown;
-    --color-main-light: beige;
-    --color-text-grey: #777;
+    --color-main-dark: #bc8f8f;
+    --color-main-light: #e9d9d8;
+    --color-secondary-dark: #5f7778;
+    --color-secondary-light: #91b9ba;
 }
 
 body {
@@ -100,7 +101,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    background-color: var(--color-text-grey);
+    background-color: var(--color-secondary-dark);
     margin-right: -1.5rem;
     padding: 1.5rem;
     width: 85%;
@@ -114,7 +115,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 400;
     margin: .5rem 0;
-    color: var(--color-text-grey);
+    color: var(--color-secondary-light);
 }
 
 h3 {
@@ -122,7 +123,7 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    color: var(--color-text-grey);
+    color: var(--color-secondary-dark);
     width: 20%;
     white-space: nowrap;
     padding-bottom: .75rem;
@@ -131,7 +132,7 @@ h3 {
 }
 
 aside h3 {
-    border-color: var(--color-text-grey);
+    border-color: var(--color-secondary-light);
     color: white;
 }
 
@@ -140,13 +141,13 @@ b {
 }
 
 .cv-item {
-    margin-bottom: .75rem;
+    margin-bottom: .5rem;
 }
 
 #dev {
     background-color: var(--color-main-light);
-    border: .5rem solid var(--color-main-dark);
-    margin: -.5rem;
+    border: .5rem solid var(--color-main-light);
+    margin: 0 -.5rem .5rem;
 }
 
 .title {
@@ -160,7 +161,7 @@ b {
 }
 
 .org {
-    color: var(--color-text-grey);
+    color: var(--color-secondary-dark);
     font-style: italic;
 }
 
