@@ -2,7 +2,7 @@
 
 :root {
     --color-main-dark: rosybrown;
-    --color-main-light: aqua;
+    --color-main-light: beige;
     --color-text-grey: #777;
 }
 
@@ -36,6 +36,11 @@ a {
 
 a:hover {
     font-weight: 700;
+}
+
+aside section:last-of-type,
+main section:last-of-type {
+    margin-bottom: 0;
 }
 
 /* side column */
@@ -136,6 +141,12 @@ b {
 
 .cv-item {
     margin-bottom: .75rem;
+}
+
+#dev {
+    background-color: var(--color-main-light);
+    border: .5rem solid var(--color-main-dark);
+    margin: -.5rem;
 }
 
 .title {
