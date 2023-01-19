@@ -27,7 +27,7 @@ body {
 
 header,
 section {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -55,6 +55,7 @@ aside {
 section#pfp {
     width: 100%;
     padding-top: 100%;
+    margin-bottom: 0.8rem;
     background-image: url('../img/pfp.png');
     background-size: contain;
     background-position-x: center;
