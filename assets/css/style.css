@@ -1,203 +1,204 @@
 @import url(https://fonts.bunny.net/css?family=georama:200,200i,400,400i,700,700i);
 
 :root {
-    --color-main-dark: #bc8f8f;
-    --color-main-light: #e9d9d8;
-    --color-secondary-dark: #5f7778;
-    --color-secondary-light: #91b9ba;
+	--color-main-dark: #bc8f8f;
+	--color-main-light: #e9d9d8;
+	--color-secondary-dark: #5f7778;
+	--color-secondary-light: #91b9ba;
 }
 
 body {
-    background-color: white;
-    box-sizing: border-box;
-    font-family: 'Georama', sans-serif;
-    font-size: 14px;
-    line-height: 1.3em;
-    text-align: justify;
+	background-color: white;
+	box-sizing: border-box;
+	font-family: 'Georama', sans-serif;
+	font-size: 14px;
+	line-height: 1.3em;
+	text-align: justify;
 }
 
 #cv-wrapper {
-    background-color: white;
-    width: 210mm;
-    height: 297mm;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
+	background-color: white;
+	width: 210mm;
+	height: 297mm;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
 }
 
 header,
 section {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 a {
-    outline: none;
-    text-decoration: none;
+	outline: none;
+	text-decoration: none;
 }
 
 a:hover {
-    font-weight: 700;
+	font-weight: 700;
+	color: black;
 }
 
 aside section:last-of-type,
 main section:last-of-type {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* side column */
 
 aside {
-    width: 35%;
-    background-color: var(--color-main-dark);
-    padding: 1.5rem;
+	width: 35%;
+	background-color: var(--color-main-dark);
+	padding: 1.5rem;
 }
 
 section#pfp {
-    width: 100%;
-    padding-top: 100%;
-    margin-bottom: 0.8rem;
-    background-image: url('../img/pfp.png');
-    background-size: contain;
-    background-position-x: center;
-    background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	margin-bottom: 0.8rem;
+	background-image: url('../img/pfp.png');
+	background-size: contain;
+	background-position-x: center;
+	background-repeat: no-repeat;
 }
 
 #info ul {
-    list-style-type: none;
-    white-space: nowrap;
+	list-style-type: none;
+	white-space: nowrap;
 }
 
 #info li {
-    display: flex;
-    align-items: center;
-    margin-bottom: .25rem;
-    margin-left: 1.25rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.25rem;
+	margin-left: 1.25rem;
 }
 
 #info li img {
-    width: 1rem;
-    margin-right: .5rem;
+	width: 1rem;
+	margin-right: 0.5rem;
 }
 
 /* main column */
 
 main {
-    width: 65%;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	width: 65%;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    text-align: end;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	text-align: end;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: white;
-    background-color: var(--color-secondary-dark);
-    margin-right: -1.5rem;
-    padding: 1.5rem;
-    width: 85%;
-    border-radius: .75rem 0 0 .75rem;
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	background-color: var(--color-secondary-dark);
+	margin-right: -1.5rem;
+	padding: 1.5rem;
+	width: 85%;
+	border-radius: 0.75rem 0 0 0.75rem;
 }
 
 h1 #firstname {
-    color: var(--color-main-dark);
+	color: var(--color-main-dark);
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin: .5rem 0;
-    color: var(--color-secondary-light);
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 0.5rem 0;
+	color: var(--color-secondary-light);
 }
 
 h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .3rem;
-    color: var(--color-secondary-dark);
-    width: 20%;
-    white-space: nowrap;
-    padding-bottom: .75rem;
-    border-bottom: 5px solid var(--color-main-dark);
-    margin-bottom: .5rem;
-    margin-left: -.2rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	color: var(--color-secondary-dark);
+	width: 20%;
+	white-space: nowrap;
+	padding-bottom: 0.75rem;
+	border-bottom: 5px solid var(--color-main-dark);
+	margin-bottom: 0.5rem;
+	margin-left: -0.2rem;
 }
 
 aside h3 {
-    border-color: var(--color-secondary-light);
-    color: white;
+	border-color: var(--color-secondary-light);
+	color: white;
 }
 
 b {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .cv-item {
-    margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 }
 
 #dev {
-    background-color: var(--color-main-light);
-    padding: .75rem;
-    margin: 0 -.75rem .5rem;
-    border-radius: .75rem;
+	background-color: var(--color-main-light);
+	padding: 0.75rem;
+	margin: 0 -0.75rem 0.5rem;
+	border-radius: 0.75rem;
 }
 
 #profile p {
-    margin-bottom: .4rem;
+	margin-bottom: 0.4rem;
 }
 
 #skills {
-    background-color: var(--color-secondary-light);
-    padding: .75rem;
-    margin: 0 -.75rem -.75rem;
-    border-radius: .75rem;
+	background-color: var(--color-secondary-light);
+	padding: 0.75rem;
+	margin: 0 -0.75rem -0.75rem;
+	border-radius: 0.75rem;
 }
 
 #skills h3 {
-    color: white;
-    border-bottom-color: var(--color-main-light);
+	color: white;
+	border-bottom-color: var(--color-main-light);
 }
 
 #skills .cv-item:last-of-type {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .title {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .date {
-    color: var(--color-main-dark);
-    float: right;
-    font-weight: 700;
+	color: var(--color-main-dark);
+	float: right;
+	font-weight: 700;
 }
 
 .org {
-    color: var(--color-secondary-dark);
-    font-style: italic;
+	color: var(--color-secondary-dark);
+	font-style: italic;
 }
 
 .cv-item p:first-of-type {
-    margin-top: .25rem;
+	margin-top: 0.25rem;
 }
 
 .cv-item li {
-    list-style-type: square;
-    list-style-position: inside;
+	list-style-type: square;
+	list-style-position: inside;
 }
 
 .cv-item li span {
-    margin-left: -.6rem;
+	margin-left: -0.6rem;
 }
